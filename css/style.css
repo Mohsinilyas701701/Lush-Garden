@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.website-header .website-image {
+    background-image: url('../images/header-bg.png');
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 5px 40px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    padding: 5px 40px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.meta-data {
+    position: absolute;
+    left: 20%;
+    top: 41%;
+}
+
+.meta-data h1 {
+    Font-family: 'Lato';
+    Font-style: Bold;
+    Font-size: 6rem;
+    Line-height: 77px;
+    Line-height: 100%;
+    color: white;
+}
+
+.meta-data p {
+    Font-family: 'Lato';
+    Font-style: 400;
+    Font-size: 1.8rem;
+    Line-height: 2.5rem;
+    Line-height: 140%;
+    color: white;
+    max-width: 78rem;
+    text-align: center;
+    margin: auto;
+}
+
+.meta-data .book-now {
+    border: none;
+    background-color: #285A43;
+}
+
+.plants-categories{
+    margin-top: 120px;
+}
+.plants-categories h2 {
+    font-size: 3.6rem;
+    line-height: 5rem;
+    line-height: 140%;
+    color: #285A43;
+    max-width: 450px;
+    text-transform: capitalize;
+}
+
+.plants-categories p {
+    Font-size: 1.4rem;
+    font-weight: 500;
+     Line-height: 27px ;
+     color: #121212;
+     max-width: 648px;
+     height: 108px;
+}
+
+.categories-cards{
+    margin-top: 80px;
+}
+
+.categories-cards .card{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.05);
+    max-height: 301px;
+    max-width: 320px;
+    border: none;
+}
+.categories-cards .card-body h5{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+    letter-spacing: 4%;
+}
+
+.categories-cards .card-body p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 80%;
+    color: #121212;
+}
+
+.outdoor-card{
+    background-color: #285A43;
+}
+
+.products{
+    margin-top: 80px;
+}
+
+.products .card{
+    width: 28rem;
+    min-height: 26rem;
+}
+
+.products h2{
+    color: #285A43;
+    font-size: 3.6rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.products-card img{
+    height: 25rem;
+    width: 100%;
+}
+
+.card-data p{
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.2rem;
+    color: #285A43;
+}
+
+.card-data span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.card-data-button{
+    background-color: #285A43;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.card-data-button{
+    background-color: #285A43;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.card-data-button:hover{
+    background-color: #285A43;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.card-data-button2{
+    background-color: #ffffff;
+    color: #285A43;
+    border: 1px solid #285A43;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.card-data-button2:hover{
+    background-color: #ffffff;
+    color: #285A43;
+    border: 1px solid #285A43;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
